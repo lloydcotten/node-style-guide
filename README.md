@@ -866,7 +866,31 @@ Heavily inspired by them as well:
       breed: 'Bernese Mountain Dog'
     });
     ```
+  
+  - Include one empty line after brace closing a code block.
+  
+    ```javascript
+    // bad
+    function test(err, result) {
+      if (err) {
+        return console.log('Something bad happened:', err);
+      }
+      console.log('Something good happened:', result);
+    }
+    module.exports = test;
 
+    // good
+    function test(err, result) {
+      if (err) {
+        return console.log('Something bad happened:', err);
+      }
+
+      console.log('Something good happened:', result);
+    }
+
+    module.exports = test;
+    ```
+  
   - Set off operators with spaces.
 
     ```javascript
