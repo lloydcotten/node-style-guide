@@ -867,7 +867,7 @@ Heavily inspired by them as well:
     });
     ```
   
-  - Include one empty line after brace closing a code block.
+  - Include 1 empty line after brace closing a code block.
   
     ```javascript
     // bad
