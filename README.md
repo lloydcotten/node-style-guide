@@ -1,4 +1,4 @@
-# [AMEC Met-Ocean Services](http://weather.amec.com/) Node.js Style Guide
+# [AMEC](http://weather.amec.com/) Node.js Style Guide
 
 ### Most of the content is taken from the [Airbnb styleguide](https://github.com/airbnb/javascript)
 
