@@ -883,11 +883,11 @@ Heavily inspired by them as well:
     function test(err, result) {
       if (err) {
         return console.log('Something bad happened:', err);
-      }
-
+      }↵
+      ↵
       console.log('Something good happened:', result);
-    }
-
+    }↵
+    ↵
     module.exports = test;
     ```
   
